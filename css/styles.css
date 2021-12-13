@@ -1,0 +1,207 @@
+*{
+    
+    background-color: #020412;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+
+    width: 100%;
+    height: 100vh;
+    background: #020412;
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;
+
+}
+
+nav {
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0 10px;
+
+}
+
+.logo {
+
+    width: 120px;
+    cursor: pointer;
+
+}
+
+.menu-icon {
+
+    width: 35px;
+    cursor: pointer;
+
+}
+
+nav ul {
+
+    flex: 1;
+    text-align: right;
+    padding-right: 40px;
+
+}
+
+nav ul li{
+
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+
+}
+
+nav ul li a {
+
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 17px;
+
+}
+
+nav ul li a:hover {
+    
+    color: #fff724;
+
+
+}
+
+.text-box {
+
+    margin-top: 5%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+
+
+}
+
+.text-box h1 {
+
+    font-size: 55px;
+    line-height: 160px;
+    font-weight: bold;
+
+
+}
+
+.text-box a {
+
+    display: inline-block;
+    border-radius: 6px;
+    background: #fff724;
+    border: 2px solid #fff724;
+    color: #000;
+    font-weight: 600;
+    padding: 5px 30px;
+    text-decoration: none;
+    
+}
+
+.user-img {
+
+    width: 450px;
+    position: absolute;
+    right: 4px;
+    bottom: 50px;
+
+}
+
+.svg {
+
+    color: #fff724;
+
+}
+
+.text-box2 {
+
+    margin-top: 5%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+
+}
+
+.text-box2 h1 {
+
+    font-size: 55px;
+    line-height: 160px;
+
+
+}
+
+.text-box2 a {
+
+    color: #fff724;
+    
+}
+
+.text-box2 .btn {
+
+    background: #fff724;
+    color: #000;
+    margin-left: 30px;
+    font-weight: 600;
+
+}
+
+.text-box3 {
+
+    margin-top: 5%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+
+}
+
+.text-box3 h1 {
+
+    font-size: 55px;
+    line-height: 160px;
+
+
+}
+
+.text-box3 a {
+
+    color: #fff724;
+    
+}
+
+.text-box3 .btn {
+
+    background: #fff724;
+    color: #000;
+    margin-left: 30px;
+    font-weight: 600;
+
+}
+
+.about strong {
+
+    color: #fff724;
+
+}
+
+.rrss {
+
+    color: #fff724;
+    display: flex;
+    gap: .6rem;
+
+}
+
+.hr {
+
+    width: 50%;
+
+}
